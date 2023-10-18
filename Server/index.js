@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use('/public/images',express.static('public/images'))
 
-
+//Pull request Check!
 mongoose.connect("mongodb://127.0.0.1:27017/Nearbyone").then(() => {
   console.log("Connected to DB");
 });
